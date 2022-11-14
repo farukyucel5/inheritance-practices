@@ -25,10 +25,14 @@ LocalDate clasini kullanarak bu uc degiskeni bir method icine gonderin ve random
     LocalDate registration_date;
     String name;
 
-    User_class(String name,int year,int month,int day)
-    {
+    User_class(String name) {
         this.name=name;
-        registration_date=LocalDate.of(year,month,day);
 
     }
+
+    User_class(int year,int month,int day) {
+        registration_date=LocalDate.of(year,month,day);
+    }
+
+
 }
