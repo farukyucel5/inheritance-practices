@@ -1,9 +1,8 @@
 package inheritance3;
 
 import java.time.LocalDate;
-import java.util.Scanner;
 
-public class User_class {
+public class A_User_class {
       /*
   Bu uygulama kulanıcıların bir ArrayListe kayıt tarihini random alarak ekleyen
  ve sonrasında her ayın ilk 10 gününde kaydolanları şanslı kullanıcı olarak ekrana yazdıran bir uygulamadır.
@@ -25,12 +24,12 @@ LocalDate clasini kullanarak bu uc degiskeni bir method icine gonderin ve random
     LocalDate registration_date;
     String name;
 
-    User_class(String name) {
+    A_User_class(String name) {
         this.name=name;
 
     }
 
-    User_class(int year,int month,int day) {
+    A_User_class(int year, int month, int day) {
         registration_date=LocalDate.of(year,month,day);
     }
 

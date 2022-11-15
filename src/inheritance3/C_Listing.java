@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Listing {
+public class C_Listing {
 
     public static void printHappyUsers()
     {
-        Register_class object=new Register_class();
+        B_Register_class object=new B_Register_class();
         Random ramdom_nums=new Random();
 
 
@@ -20,7 +20,7 @@ public class Listing {
             int year = ramdom_nums.nextInt(10)+2013;
             int month = ramdom_nums.nextInt(12)+1;
             int day = ramdom_nums.nextInt(28)+1;
-            User_class date=new User_class(year,month,day);
+            A_User_class date=new A_User_class(year,month,day);
 
 
             if (day <= 10) {

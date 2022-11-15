@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Register_class{
+public class B_Register_class {
     public List<String> register() {
 
 
@@ -18,7 +18,7 @@ public class Register_class{
               count++;
               System.out.println("Please enter in the username:");
               name=scan.nextLine();
-              User_class ad=new User_class(name);
+              A_User_class ad=new A_User_class(name);
               names.add(ad.name);
 
           }
