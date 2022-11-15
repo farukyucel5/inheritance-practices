@@ -6,7 +6,7 @@ public class Triangle extends GeometricObject{
     double side3=1;
     String color;
 
-    boolean filled=false;
+    boolean filled;
 
     public boolean isFilled() {
         return filled;
